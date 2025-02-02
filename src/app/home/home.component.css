@@ -1,0 +1,209 @@
+.outer {
+  background: linear-gradient(to top, #a9a9f1 20%, #ffffff 90%) no-repeat;
+  height: 300vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form.example input {
+  border-radius: 20px;
+}
+
+form.example button {
+  width: 20%;
+  padding: 10px;
+  background: #f35221;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+.h1bk {
+  text-align: center;
+  color: #664ef0;
+  font-size: 40px;
+}
+
+.btnbk {
+  background-color: rgb(217, 215, 250);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 90px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 30px;
+  width: 500px;
+  height: 280px;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 25pt;
+  padding-left: 20px;
+  color: #5d6664;
+}
+
+.card8 {
+  background-image: url(pictures/shutterstock_525008128.jpg);
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 30px;
+  width: 90%;
+  height: 350px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.OurCourses {
+  font-size: 25pt;
+  padding-left: 20px;
+  color: #788683;
+}
+
+.img1 {
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.example {
+  border-radius: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  .h1bk {
+    font-size: 30px;
+  }
+
+  .btnbk {
+    margin: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .card8 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .OurCourses {
+    font-size: 20px;
+  }
+
+  .img1 {
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  form.example button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .h1bk {
+    font-size: 35px;
+  }
+
+  .btnbk {
+    margin: 50px;
+    padding: 7px 14px;
+    font-size: 15px;
+  }
+
+  .card {
+    width: 80%;
+    height: auto;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  .card8 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .OurCourses {
+    font-size: 22px;
+  }
+
+  .img1 {
+    height: 90px;
+    margin-right: 15px;
+  }
+
+  form.example button {
+    width: 50%;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h1bk {
+    font-size: 40px;
+  }
+
+  .btnbk {
+    margin: 90px;
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .card {
+    width: 500px;
+    height: 280px;
+    padding: 30px;
+    margin: 30px;
+  }
+
+  .card8 {
+    margin-left: 70px;
+    width: 90%;
+    height: 350px;
+  }
+
+  .OurCourses {
+    font-size: 25px;
+  }
+
+  .img1 {
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  form.example button {
+    width: 20%;
+    font-size: 17px;
+  }
+}

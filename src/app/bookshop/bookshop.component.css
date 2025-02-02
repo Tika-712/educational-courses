@@ -1,0 +1,31 @@
+.card {
+   
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 30px;
+  width: 400px;
+  height:  280px;
+  text-align: center;
+  float: left;
+}
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .btnbuy{
+    background-color: #fdfeff;
+    margin: 100px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-color: #475bb1;
+    border-width: 3px;
+    
+
+  }
+  .btnbuy:hover{
+    background-color: #a0aeec;
+  }

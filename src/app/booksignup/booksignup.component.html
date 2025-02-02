@@ -1,0 +1,42 @@
+<!-- registration.component.html -->
+
+<form >
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" formControlName="username" class="form-control" id="username">
+      <div class="invalid-feedback">
+        <div></div>
+        <div >Username must be at least 3 characters</div>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" formControlName="email" class="form-control" id="email">
+      <div  class="invalid-feedback">
+        <div >Email is required</div>
+        <div >Invalid email format</div>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" formControlName="password" class="form-control" id="password">
+      <div  class="invalid-feedback">
+        <div >Password is required</div>
+        <div >Password must be at least 6 characters</div>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" formControlName="confirmPassword" class="form-control" id="confirmPassword">
+      <div  class="invalid-feedback">
+        <div >Confirm password is required</div>
+        <div>Passwords do not match</div>
+      </div>
+    </div>
+  
+    <button type="submit"  class="btn btn-primary">Register</button>
+  </form>
+  
